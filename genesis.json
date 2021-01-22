@@ -8,12 +8,14 @@
     "byzantiumBlock": 0,
     "constantinopleBlock": 0,
     "petersburgBlock": 0,
-    "ethash": {}
+    "ethash": {
+      "period": 15,   
+      "epoch": 30000
+    }
   },
   "difficulty": "1",
   "gasLimit": "8000000",
   "alloc": {
-    "Dc8C5DE422aA737ec68Ae8D12351b46547Cf44b2": { "balance": "300000" },
-    "27457B5f1C88d6dbB924055e5067a114C09a9C1d": { "balance": "400000" }
+    "AF7FA2270D5e55db32a54593AADf7eac0752986E": { "balance": "300000000000000000000000000" }
   }
 }
